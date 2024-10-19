@@ -1,0 +1,23 @@
+#main-header {
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 700;
+
+    box-sizing: border-box;
+        height: 50px;
+        width: auto;
+
+    padding: 15px;
+    margin: 10px;
+    border: 122px;
+    border-color: black;
+
+    background: rgb(122, 0, 0);
+    color: white;
+}
+
+.recipe {
+    margin-bottom: 20px;
+}
