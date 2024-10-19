@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* Need to be of the same value*/
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#header-logo {
+    align-self: center;
+    font-weight: 1000;
+}
+
+ul   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Front section */
+
+#front-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#front-section-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-tile {
+    flex: 1;
+}
+
+/* Info section */
+
+#info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info-section-title {
+
+}
+
+#info-section-info-tiles {
+    display: flex;
+    flex-direction: row;
+}
+
+
