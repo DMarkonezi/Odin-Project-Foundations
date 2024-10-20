@@ -1,11 +1,15 @@
+html, body {
+    margin: 0px;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     /* Need to be of the same value*/
-    margin-left: 170px;
-    margin-right: 170px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 #header-logo {
@@ -28,17 +32,22 @@ li {
 /* Front section */
 
 #front-section {
+
+    height: 200px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    margin-left: 170px;
-    margin-right: 170px;
+    /* Same values as for the header, for it to be aligned with it */
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 #front-section-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #image-tile {
@@ -54,12 +63,112 @@ li {
 }
 
 #info-section-title {
+    align-self: center;
 
+    margin: 20px;
 }
 
 #info-section-info-tiles {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
+.info-tile {
+    display: flex;
+    flex-direction: column;
+}
 
+.info-tile-image {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    border-color: blue;
+    border-radius: 15px;
+} 
+
+.info-tile-text {
+    text-align: center;
+}
+
+/* Quote section */
+
+#quote-section {
+    height: 200px;
+    background: #E5E7EB;
+
+    justify-content: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter; 
+    color: #1F2937;
+}
+
+/* Sign up section */
+
+#sign-up-section {
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*For every text inside section*/
+    color: white;
+}
+
+#sign-up-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 10px;
+
+    background: #3882F6;
+}
+
+#sign-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sign-up-big-text {
+    font-size: 30px;
+
+    margin: 0px;
+} 
+
+#sign-up-small-text {
+    margin: 0px;
+}
+
+#button-wrapper-div {
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+}
+
+header, 
+footer,
+#front-section {
+    color: #F9FAF8;
+    background: #1F2937;
+}
