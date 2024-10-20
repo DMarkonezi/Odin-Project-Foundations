@@ -2,6 +2,12 @@ html, body {
     margin: 0px;
 }
 
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -158,6 +164,10 @@ li {
     align-items: center;
 }
 
+button.button-inverted {
+    background: #3882F6;
+}
+
 /* Footer */
 
 footer {
@@ -172,3 +182,4 @@ footer,
     color: #F9FAF8;
     background: #1F2937;
 }
+
